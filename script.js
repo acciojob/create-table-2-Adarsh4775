@@ -11,5 +11,5 @@ function createTable() {
 		let tableColumn = document.createElement("td");
 	     tableColumn.innerText = "Row-" + rn + "Column-" + cn ;
          tableRow.appendChild(tableColumn);
-	      tableRow.appendChild(table);
+	      table.appendChild(tableRow);
 }
