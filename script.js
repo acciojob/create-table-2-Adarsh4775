@@ -9,7 +9,7 @@ function createTable() {
 
 	let tableRow = document.createElement("tr");
 		let tableColumn = document.createElement("td");
-	     tableColumn.innerText = "Row-" + rn + "Column-" + cn ;
+	     tableColumn.innerText = "Row-" + 0 + "Column-" + 0 ;
          tableRow.appendChild(tableColumn);
 	      table.appendChild(tableRow);
 }
